@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.gallery{
+    background-image: url(./images/Child-Support.jpg);
+    height: 85vh;
+    border-radius: 2px;
+    min-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn-home{
+    font-family: "Assistant";
+    color: rgb(240, 238, 238);
+   border-bottom: 2px solid rgb(185, 181, 181);
+   
+}
+
+.btn-gallery{
+    font-family: "Assistant";
+    color: rgb(244, 241, 241);
+    border-bottom: 2px solid rgb(123, 123, 123); 
+    opacity: .7;  
+}
+
+.hero-text{
+    font-family: "Rubik";
+}
+
+.gall-img{
+    height: 250px;
+    width: 300px;
+}
+
+.gall-img:hover img {
+    filter: brightness(130%);
+    cursor: pointer;
+    
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px); /* Optional: Add a slight upward movement */
+    }
+    to {
+        opacity: 1;
+        transform: translatex(0);
+    }
+}
+
+/* Apply the fade-in animation to elements with the fade-in class */
+/* .fade-in {
+    animation: fadeIn 2s ease-in-out;
+    
+} */
